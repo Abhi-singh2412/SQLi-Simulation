@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Share Tech Mono', monospace;
+      background: #0f0f0f;
+      color: #00ff99;
+      padding: 40px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #00ffff;
+    }
+
+    .dashboard {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px #00ff99;
+    }
+
+    .info {
+      margin-bottom: 20px;
+    }
+
+    .info h2 {
+      color: #00ffff;
+      margin-bottom: 10px;
+    }
+
+    .info p {
+      margin: 5px 0;
+    }
+
+    .table-container {
+      margin-top: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #111;
+      color: #0f0;
+    }
+
+    th, td {
+      border: 1px solid #0f0;
+      padding: 10px;
+      text-align: left;
+    }
+
+    th {
+      background: #222;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+
+    .highlight {
+      color: #ff5e5e;
+    }
+  </style>
+</head>
+<body>
+  <div class="dashboard">
+    <h1>🛡 Admin Control Panel</h1>
+    
+    <div class="info">
+      <h2> Logged in as: <span class="highlight">admin</span></h2>
+      <p>Role: Superuser</p>
+      <p>Access Level: Full</p>
+    </div>
+
+    <div class="table-container">
+      <h2> User Database</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Role</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>admin</td>
+            <td>admin@site.com</td>
+            <td>Superuser</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>rahul123</td>
+            <td>rahul@example.com</td>
+            <td>User</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>kritika21</td>
+            <td>kritika@example.com</td>
+            <td>User</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="footer">
+      <p>© 2025 SecureCorp. Admin panel rendered via SQL Injection Simulation.</p>
+    </div>
+  </div>
+</body>
+</html>
