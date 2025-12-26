@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^5.2.1",
     "mysql": "^2.18.1",
     "nodemailer": "^7.0.5"
   }
